@@ -7,9 +7,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @EnableScheduling
-@SpringBootApplication
 @EnableBatchProcessing
-@Configuration
+@SpringBootApplication
 public class BatchTestApplication {
 
 	public static void main(String[] args) {

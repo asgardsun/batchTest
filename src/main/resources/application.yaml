@@ -1,8 +1,10 @@
+
 # Default
 spring:
   profile:
     active: local
 
+### LOCAL
 ---
 spring:
   config:
@@ -21,6 +23,7 @@ spring:
     password: q1w2e3r4t5
   jpa:
     show-sql: true
+
 
 ### TEST
 ---
